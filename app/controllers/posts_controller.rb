@@ -27,4 +27,7 @@ class PostsController < ApplicationController
     redirect_to("/posts/index")
   end
 
+  def destroy
+    redirect_to("/posts/index")
+  end
 end
